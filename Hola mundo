@@ -1,4 +1,16 @@
+print('Quin es el teu nom?')
+nom=input()
+print('hola', nom)
+
+num=1
+print(num)
+num=2.5
+print(num)  
+num='ups'
+print(num)
+
+
 print('hola mundo')
 print('Escriu la teva edat')
-input()
-print('Tienes Escriu la teva edat')
+edat=input()
+print('tienes', edat, 'años')
