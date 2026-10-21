@@ -1,19 +1,32 @@
 print('posa dos números')
+
 num=input('el primer número\n')
+
 num2=input('el segon numero\n')
 
-print(f'La suma és:{int(num) + int(num2)}')
+print(f'totes les operacions són: suma:{int(num) + int(num2)}\n', f'resta:{int(num) - int(num2)}\n', f'resta:{int(num2) - int(num)}\n', f'multiplicació:{int(num) * int(num2)}\n', f'divisió:{int(num) / int(num2)}\n', f'modul:{int(num) % int(num2)}\n', f'divisio entera:{int(num) // int(num2)}\n', f'poténcia:{int(num) ** int(num2)}')
 
-print(f'La resta és:{int(num) - int(num2)}')
+#operacions amb textos
+text1=input('introdueix un text\n')
+text2=input('introdueix un altre text\n')
+print(f'La concatenació és:{text1 + text2}\n')
+print(f'La repetició és:{text1 * 3}\n')
 
-print(f'La resta és:{int(num2) - int(num)}')
 
-print(f'La multiplicació és:{int(num) * int(num2)}')
 
-print(f'La  divisió és:{int(num) / int(num2)}')
+#increments de variables
 
-print(f'La modul residu és:{int(num) % int(num2)}')
+num=1
+print(num)
+num=2       # reassignem el valor 2 a la variable num
+print(num)
+num=num+1 #summa 1 al valor de la variable num
+print(num)
+num+=1 #summa 1 al valor de la variable num
+print(num)
 
-print(f'La divisio entera és:{int(num) // int(num2)}')
-
-print(f'La poténcia és:{int(num) ** int(num2)}')
+print('el la primera variable val:',num1,'\n el segon numero val:',num2,'\n')
+aux=num1 # variable auxiliar que guarda el valor de n1
+num1=num2 # assignem a n1 el valor de n2
+num2=aux # assignem a n2 el valor de la variable auxiliar
+print( 'ara el primer numero és:', num1, 'i el segon numero és:', num2)
