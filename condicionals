@@ -1,0 +1,14 @@
+print("")
+
+
+#Números
+n1=int(input('el primer número\n'))
+n2=int(input('el segon numero\n'))
+
+if(n1+n2>10):{print('la suma és major que 10')
+}
+else:{print('la suma és menor que 10')}
+
+if(n1+n2<10):{print('la suma es mes gran que 8')
+}
+else:{print('la suma es mes petita que 4')}
