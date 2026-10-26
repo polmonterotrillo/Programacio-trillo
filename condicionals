@@ -9,6 +9,15 @@ if(n1+n2>10):{print('la suma és major que 10')
 }
 else:{print('la suma és menor que 10')}
 
-if(n1+n2<10):{print('la suma es mes gran que 8')
+#operador or (o)
+if(n1+n2 >8 or n1+n2 <4):{print('la suma es mes gran que 8 o mes petita que 4')
 }
-else:{print('la suma es mes petita que 4')}
+#operador and (i)
+if(n1+n2 >12 and n1+n2 <18):{print('la suma es mes gran que 12 i mes petita que 18')
+}
+  #operador not (no)
+if not(n1+n2 == 13):{print('la suma no es igual a 13')
+}
+elif(n1+n2 == 15):{print('la suma es igual a 15')
+}
+
