@@ -42,3 +42,35 @@ else:(input()=='no')
 print('vols fer el quadrat de n2**n1?')
 if(input()=='si'):
     print('el quadrat de n2 és',n2**n1)
+
+#pregunta si vols fer el modul
+else:(input()=='no')
+print('vols fer el modul?')
+if(input()=='si'):
+    print('vols fer el quadrat de n1%n2?')
+    if(input()=='si'):
+        print('el modul de n1%n2 és',n1%n2)
+
+#pregunta si vols fer el modul2
+else:(input()=='no')
+print('vols fer el modul de n2%n1?')
+if(input()=='si'):
+    print('el modul de n2%n1 és',n2%n1)
+
+#pregunta si vols fer la divisió entera
+else:(input()=='no')
+print('vols fer la divisió entera?')
+if(input()=='si'):
+    print('vols fer el quadrat de n1//n2?')
+    if(input()=='si'):
+        print('la divisió entera de n1//n2 és',n1//n2)
+
+#pregunta si vols fer la divisió entera2
+else:(input()=='no')
+print('vols fer la divisió entera de n1//n2?')
+if(input()=='si'):
+    print('la divisió entera de n1//n2 és',n1//n2)
+print('vols fer la divisió entera de n2//n1?')
+if(input()=='si'):
+    print('la divisió entera de n2//n1 és',n2//n1)
+    
