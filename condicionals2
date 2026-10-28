@@ -10,5 +10,35 @@ n2=int(input('el segon numero\n'))
 print('vols sumar-los?')
 if(input()=='si'):
     print('la suma és',n1+n2)
+
 #Pregunta si vols restar-los
-else:(input()=='no'):{print('vols restar-los?')}
+else:(input()=='no')
+print('vols restar-los?')
+if(input()=='si'):
+        print('la resta és',n1-n2)
+
+#pregunta si vols multiplicar-los
+else:(input()=='no')
+print('vols multiplicar-los?')
+if(input()=='si'):
+        print('la multiplicació és',n1*n2)
+
+#pregunta si vols dividir-los
+else:(input()=='no')
+print('vols dividir-los?')
+if(input()=='si'):
+        print('la divisió és',n1/n2)
+
+#pregunta si vols fer al quadrada1
+else:(input()=='no')
+print('vols fer al quadrat?')
+if(input()=='si'):
+    print('vols fer el quadrat de n1**n2?')
+    if(input()=='si'):
+        print('el quadrat de n1 és',n1**2)
+
+#pregunta si vols fer al quadrada2
+else:(input()=='no')
+print('vols fer el quadrat de n2**n1?')
+if(input()=='si'):
+    print('el quadrat de n2 és',n2**n1)
