@@ -1,0 +1,14 @@
+print("")
+
+print(' dona\'m dos números?')
+
+#Números
+n1=int(input('el primer número\n'))
+n2=int(input('el segon numero\n'))
+
+#Pregunta si vols sumar-los
+print('vols sumar-los?')
+if(input()=='si'):
+    print('la suma és',n1+n2)
+#Pregunta si vols restar-los
+else:(input()=='no'):{print('vols restar-los?')}
