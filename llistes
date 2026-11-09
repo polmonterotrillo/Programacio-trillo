@@ -37,3 +37,5 @@ if lletra[(int(dni[:-1]))%23] == dni[-1]:
     print("el teu DNI és correcte")
 if lletra[(int(dni[:-1]))%23] != dni[-1]:
     print("el teu DNI és incorrecte")
+list.insert(1, "gos")
+print(list)
