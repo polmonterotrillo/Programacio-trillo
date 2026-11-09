@@ -1,0 +1,19 @@
+#pregunta dient que escriguis 4 numeros i els guardi en una llista
+llista = []
+llista.append(int(input("escriu un numero:")))
+llista.append(int(input("escriu un altre numero:")))
+llista.append(int(input("escriu un altre:")))
+llista.append(int(input("escriu l'ultim:")))
+#posar que la llista s'en vagi ordenada de menor a major
+llista[0], llista[1], llista[2], llista[3]
+
+print("llista [0]:", llista[0])
+print("llista [1]:", llista[1])
+print("llista [2]:", llista[2])
+print("llista [3]:", llista[3])
+
+llista
+
+print("\n la llista desordenada és:", llista)
+
+print("\n la llista és:", )
