@@ -12,8 +12,11 @@ print("llista [1]:", llista[1])
 print("llista [2]:", llista[2])
 print("llista [3]:", llista[3])
 
-llista
-
-print("\n la llista desordenada és:", llista)
-
-print("\n la llista és:", )
+print("ordenar la llista de menor a major")
+if llista[0] > llista[1]:
+    llista[0], llista[1] = llista[1], llista[0]
+if llista[1] > llista[2]:
+    llista[1], llista[2] = llista[2], llista[1]
+if llista[2] > llista[3]:
+    llista[2], llista[3] = llista[3], llista[2]
+    if llista[0] <llista[1]:
