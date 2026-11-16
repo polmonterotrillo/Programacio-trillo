@@ -1,0 +1,17 @@
+
+
+import random
+
+# Calcular los números de la primitiva
+
+numeros_primitiva = []
+
+for i in range(6):
+    numero_primitiva = random.randint(1, 49)
+
+    while numero_primitiva in numeros_primitiva:
+        numero_primitiva = random.randint(1, 49)
+
+    numeros_primitiva.append(numero_primitiva)
+
+print("Los números de la primitiva son:", sorted(numeros_primitiva))
