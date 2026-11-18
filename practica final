@@ -1,0 +1,13 @@
+#introdución al juego de Mastermind
+print('Bienvenido a Mastermind')
+print('Pulsa enter para comenzar')
+input()
+#explicación de notas reglas del juego
+print('El objetivo del juego es adivinar la combinación de colores que el ordenador ha elegido.\n')
+print('La combinación consta de 4 colores, y cada color puede repetirse.\n')
+print('Los colores disponibles son: rojo, azul, verde, amarillo, naranja y morado.\n')
+print('Tienes 10 intentos para adivinar la combinación correcta.\n')
+print('Después de cada intento, el ordenador te dará pistas sobre cuántos colores has acertado y cuántos están en la posición correcta.\n')
+print('')
+#Ahora comienza el juego
+print('¡Comencemos!')
